@@ -9,6 +9,7 @@ import { CreateRoomModal } from "@/components/rooms/createroom-modal"
 import { JoinPrivateModal } from "@/components/rooms/joinprivate-modal"
 
 export type Room = {
+  message: string
   id: string
   name: string
   subject: string
